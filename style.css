@@ -1,0 +1,244 @@
+* {
+	background-color: rgb(228,219,191);
+}
+
+ul {
+	list-style: none;
+	margin-left: 0;
+	padding-left: 0;
+}
+
+ul:first-child {
+	margin-top: 14px;
+}
+
+footer {
+	text-align: center;
+}
+
+a {
+	text-decoration: none;
+	/*color: rgb(78, 177, 186);*/
+	color: rgb(220,91,33);
+}
+
+a:hover {
+	/*color: rgba(78, 177, 186, 0.7);*/
+	color: rgba(220,91,33,0.7);
+}
+
+/*
+a:active {
+	color: rgba(220,91,33,0.7);
+}
+*/
+a:visited {
+	color: rgba(220,91,33,0.8);
+}
+
+
+em > a {
+	color: rgba(72,72,72,0.9);
+}
+
+em > a:hover {
+	color: rgba(72,72,72,0.6);
+}
+
+em > a:visited {
+	color: rgba(72,72,72,0.9);
+}
+
+p > a {
+	/*color: rgba(72,72,72,0.8);*/
+	/*font-weight: bold;*/
+	color: rgba(112,171,143,1);
+}
+
+p > a:hover {
+	/*color: rgba(72,72,72,0.6);*/
+	color: rgba(112,171,143, 0.8);
+}
+
+p > a:visited {
+	/*color: rgba(72,72,72,0.6);*/
+	color: rgba(112,171,143, 0.8);
+}
+
+#tweet {
+	float: right;
+	margin-top: 10px;
+}
+
+/* Layout */
+
+.container {
+	max-width: 60%;
+	margin: auto;
+}
+
+.col {
+	float: left;
+}
+
+.left {
+	width: 45%;
+}
+
+.right {
+	width: 55%;
+}
+
+.row {
+	overflow: hidden;
+}
+
+footer {
+	margin-top: 35px;
+}
+
+/* typography */
+
+h1 {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 800; 
+	text-transform: uppercase;
+	font-size: 64px;
+	margin-top: 0;
+	margin-bottom: 0;
+	color: rgb(72,72,72);
+}
+
+h2 {
+	font-family: 'Merriweather', serif;
+	font-weight: 900; 
+	color: rgb(72,72,72);
+}
+
+h4 {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	font-weight: 400; 
+	margin-top: 4px;
+	color: rgba(72,72,72,0.8);
+	float: left;
+}
+
+li {
+	font-family: 'Merriweather', serif;
+	font-weight: 400; 
+	line-height: 1.8em;
+	font-size: 16px;
+}
+
+em {
+	font-family: 'Merriweather', serif;
+	font-weight: 400;
+	font-style: italic; 
+	font-size: 14px;
+	letter-spacing: 0.6px;
+	color: rgba(72,72,72,0.8);
+}
+
+p {
+	font-family: 'PT Serif', serif;
+	color: rgba(72,72,72,0.8);
+	font-size: 14px;
+}
+
+/* responsive element */
+
+@media screen and (max-width: 1280px) {
+
+    h1 {
+    	font-size: 54px;
+    }
+
+}
+
+@media screen and (max-width: 1100px) {
+
+	.container {
+		max-width: 70%;
+	}
+}
+
+@media screen and (max-width: 960px) {
+
+    h1 {
+    	font-size: 44px;
+    }
+
+    h2 {
+    	font-size: 22px;
+    }
+
+}
+
+@media screen and (max-width: 860px) {
+    .container {
+        max-width: 85%;
+    }
+
+    h2 {
+    	font-size: 18px;
+    }
+
+    li {
+    	font-size: 14px;
+    }
+
+    em {
+    	font-size: 12px;
+    }
+
+}
+
+/* 628 */
+@media screen and (max-width: 685px) {   
+
+	.container {
+		max-width: 95%;
+	}
+
+}
+
+@media screen and (max-width: 630px) {   
+
+    #tweet {
+    	width: 100%;
+    	text-align: center;
+    	margin-top: 0px;
+    }
+
+    h1 {
+    	font-size: 34px;
+    }
+}
+
+@media screen and (max-width: 525px) {
+
+	.container {
+		max-width: 90%;
+	}
+
+	.col {
+		width: 100%;
+	}
+
+	h4 {
+		font-size: 14px;
+	}
+
+	/* need styles adjusting*/
+}
+
+@media screen and (max-width: 470px) {
+    .container {
+        max-width: 98%;
+    }
+
+	h1 {
+		font-size: 28px;
+	}
+}
