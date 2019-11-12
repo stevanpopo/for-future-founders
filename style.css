@@ -2,9 +2,14 @@
 	background-color: rgb(228,219,191);
 }
 
-header {
+header, section {
 	margin-bottom: 4px;
 	border-bottom: 1px solid rgba(192,192,192);
+}
+
+section {
+	display: grid;
+	grid-template-columns: 2fr 3fr;
 }
 
 .tweet {
