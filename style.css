@@ -2,6 +2,15 @@
 	background-color: rgb(228,219,191);
 }
 
+header {
+	margin-bottom: 4px;
+	border-bottom: 1px solid rgba(192,192,192);
+}
+
+.tweet {
+	text-align: right;
+}
+
 ul {
 	list-style: none;
 	margin-left: 0;
@@ -65,10 +74,10 @@ p > a:visited {
 	color: rgba(112,171,143, 0.8);
 }
 
-#tweet {
+/* #tweet {
 	float: right;
 	margin-top: 10px;
-}
+} */
 
 /* Layout */
 
@@ -121,7 +130,8 @@ h4 {
 	font-weight: 400; 
 	margin-top: 4px;
 	color: rgba(72,72,72,0.8);
-	float: left;
+	text-align: center;
+	/* float: left; */
 }
 
 li {
