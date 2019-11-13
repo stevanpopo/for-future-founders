@@ -85,6 +85,11 @@ em > a:hover, em > a:visited {
 }
 
 /* responsive */
+@media screen and (max-width: 1350px) {
+	h1 {
+		font-size: 3.4rem;
+	}
+}
 @media screen and (max-width: 1150px) {
 	h1 {
 		font-size: 3rem;
